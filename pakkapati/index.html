@@ -93,7 +93,14 @@
                                     <a class="nav-link scrollto" href="#change_log">Change Log</a>
                                     <a class="nav-link scrollto" href="#source_credit">Source & Credit</a>
 
-                                    <small><i>Doc Last Update:</i> 19/07/2020</small>
+                                    <a class="nav-link scrollto sub-menu-sign" href="#theme_template_section">More Template & Themes</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#wordpress_themes">WordPress Themes</a>
+                                        <a class="nav-link scrollto" href="#wordpress_plugins">WordPress Plugins</a>
+                                        <a class="nav-link scrollto" href="#html5_templates">HTML5 Templates</a>
+                                    </nav><!--//nav-->
+
+                                    <small><i>Doc Last Update:</i> 20/09/2023</small>
 
                                 </nav><!--//doc-menu-->
 
@@ -111,9 +118,9 @@
 
                                     <div id="about_template"  class="section-block">
 
-                                        <ul>
-                                            <li><strong>Template Version:</strong> 1.0.1</li>
-                                            <li><strong>Template Last Update:</strong> 17/11/2019</li>
+                                        <ul class="square-list">
+                                            <li><strong>Template Version:</strong> 1.0.2</li>
+                                            <li><strong>Template Last Update:</strong> 20/09/2023</li>
                                             <li><strong>Template Create Date:</strong> 10/10/2019</li>
                                             <li><strong>Premium Support:</strong> <a href="https://themeforest.net/item/pakkapati-flooring-service-html5-template/22627787/support/contact" target="_blank">Send Message</a></li>
                                             <li><strong>Web Site: </strong><a href="http://bluewindlab.net/" target="_blank">http://bluewindlab.net</a></li>
@@ -143,7 +150,7 @@
 
                                         <p>
                                             Undoubtedly, <strong>Pakkapati</strong> will gives you the easiest and best experience while customizing the template for Flooring Service Center web site. 
-                                            Any issue regarding Pakkapati template, we’re here to assist you.
+                                            Any issue regarding Pakkapati template, we are here to assist you.
                                         </p>
 
                                     </div><!--//section-block-->
@@ -1304,15 +1311,25 @@ echo json_encode($data);
 
                                             <div class="col-md-12 col-12">
 
-                                                <p>
-                                                    <b>2020, July, 20 - v 1.0.1</b>
-                                                    <br /><b>- Added:</b> RTL Version.
-                                                    <br /><b>- Updated:</b> Theme documentation.
-                                                </p>
+                                                <div id="dynamic_log"></div> 
 
                                                 <p>
-                                                    <b>2020, October, 18 - v 1.0.0</b>
-                                                    <br /><b>- Initial release</b> 
+                                                    <b>2023, 20 September - v 1.0.2</b>
+                                                    <ul class="square-list">
+                                                        <li>Fixed: Template minor bugs.</li>
+                                                    </ul>
+                                                </p>
+                                                <p>
+                                                    <b>2020, 20 July - v 1.0.1</b>
+                                                    <ul class="square-list">
+                                                        <li>Added: RTL Version.</li>
+                                                    </ul>
+                                                </p>
+                                                <p>
+                                                    <b>2020, 18 October - v 1.0.0</b>
+                                                    <ul class="square-list">
+                                                        <li>Initial release</li>
+                                                    </ul>
                                                 </p>
 
                                             </div>
@@ -1329,7 +1346,7 @@ echo json_encode($data);
 
                                             <div class="col-md-12 col-12">
 
-                                                <ul>
+                                                <ul class="square-list">
                                                     <li><a href="http://getbootstrap.com/">Bootstrap</a><br></li>
                                                     <li><a href="http://www.jquery.com/">jQuery Plugin</a><br></li>
                                                     <li><a href="http://fortawesome.github.io/Font-Awesome/">Owl Carousel</a><br></li>
@@ -1349,6 +1366,39 @@ echo json_encode($data);
 
                                 </section><!--//doc-section-->
 
+                                <!-- Our Template & Themes Section  -->
+
+                                <section id="theme_template_section" class="doc-section">
+                                    <h2 class="section-title">Our Themes & Templates</h2>
+
+                                    <div id="wordpress_themes" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                        <h3 class="block-title">WordPress Themes</h3>
+                                        <ol class="our-products list" id="bwl_wp_themes"></ol>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div id="wordpress_plugins" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                        <h3 class="block-title">WordPress Plugins</h3>
+                                        <ol class="our-products list" id="bwl_wp_plugins"></ol>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div id="html5_templates" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                        <h3 class="block-title">HTML5 Themes</h3>
+                                        <ol class="our-products list" id="bwl_html_templates"></ol>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </section>
+
 
                             </div><!--//content-inner-->
                         </div><!--//doc-content-->
@@ -1366,7 +1416,7 @@ echo json_encode($data);
                 <div class="row">
 
                     <div class="col-6 text-left">
-                        <span>Copyright &copy; 2021 - <a href="https://bluewindlab.net" target="_blank" class="text-info">BlueWindLab</a>. All Rights Reserved.</span>
+                        <span>Copyright &copy; 2023 - <a href="https://bluewindlab.net" target="_blank" class="text-info">BlueWindLab</a>. All Rights Reserved.</span>
                     </div>
                     <div class="col-6 text-right">
 
@@ -1381,9 +1431,10 @@ echo json_encode($data);
 
         <a id="backTop">Back To Top</a>
         
-        <!-- Main Javascript -->         
-        <script type="text/javascript" src="assets/js/all.min.js"></script>
-        <script type="text/javascript" src="assets/js/main.js"></script>
+        <!-- Main Javascript -->
+        <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/all.min.js"></script>
+        <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/main.js"></script>
+        <script type="text/javascript" src="https://xenioushk.github.io/bwl-static-assets/doc-assets/js/products.js"></script>
         
     </body>
 </html> 
